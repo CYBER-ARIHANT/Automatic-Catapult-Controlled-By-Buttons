@@ -1,0 +1,14 @@
+Here’s a basic guide to using a breadboard for your catapult project:
+
+Place Your Servo: Insert the three wires from your servo motor into three separate rows on the breadboard.
+Connect to Arduino:
+Use a jumper wire to connect the servo’s red wire (power) to the 5V pin on the Arduino.
+Use another jumper wire to connect the servo’s black or brown wire (ground) to a GND pin on the Arduino.
+Use a third jumper wire to connect the servo’s signal wire (usually yellow, orange, or white) to a digital pin on the Arduino (like pin 9).
+Add a Button (if you’re using one):
+Place the button on the breadboard so that it straddles the center divide.
+Connect one side of the button to another digital pin on the Arduino (like pin 2) with a jumper wire.
+Connect the other side of the button to a GND pin on the Arduino with another jumper wire.
+Power Rails:
+Some breadboards have red and blue lines along the sides—these are power rails for common power connections.
+Connect a jumper wire from the red power rail to the 5V pin on your Arduino and another from the blue power rail to a GND pin.
